@@ -11,7 +11,7 @@ def turn_count(board)
   counter
 end
 
-def current_player(turn_count)
+def current_player(board)
   if turn_count(counter) % 2
     current_player = "X"
   elsif turn_count(counter) % 1
