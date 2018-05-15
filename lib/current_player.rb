@@ -3,8 +3,9 @@ def turn_count(board)
 
   board.each do |space|
     if #{space} = "X" or "O"
-    
-      counter += 1
+    counter += 1
+    else
+      false
     end
   end
 end
@@ -20,6 +21,7 @@ def turn_count(board) <- here you have a board being passed in
        #inside the iteration we want to check if the space is either X or O
       if the space of the board is either "X" or "O"
        counter += 1
+       els
       end
     end
 end
