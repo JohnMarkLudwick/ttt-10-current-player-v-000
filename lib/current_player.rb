@@ -4,5 +4,8 @@
 def turn_count(board)
 board_counter = 0
 
+if the space of the board is either "X" or "O"
+   counter += 1
+    end
 end
 
