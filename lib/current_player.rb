@@ -2,6 +2,7 @@
 
 
 def turn_count(board)
+board_counter = 0
 
 end
 
