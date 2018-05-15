@@ -8,5 +8,6 @@ board.each do |space|
 if the space of the board is either "X" or "O"
    counter += 1
     end
+  end
 end
 
