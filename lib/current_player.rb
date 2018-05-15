@@ -13,7 +13,7 @@ end
 
 def current_player(board)
   if turn_count(counter) % 2 == 0
-    current_player = "0"
+    current_player = "O"
   else 
     current_player = "X"
   end
